@@ -5,10 +5,8 @@
 function guessNumber(num) {
   // prompt user for a number
   guess = prompt("Guess a number between 1 and 100.");
-
   // convert guess to a number using +;
   guess = +guess;
-
   // define base case
   if (guess === number) {
     return console.log("You got it! The number was " + number);
@@ -17,4 +15,4 @@ function guessNumber(num) {
   guessNumber(num);
 }
 
-guessNumber(10);
+console.log(guessNumber(10));

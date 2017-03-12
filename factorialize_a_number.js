@@ -29,12 +29,12 @@ function factorial(num) {
     return "Negative number. Try again.";
   }
 
-  var factorial = 1;
+  var start = 1;
   // for (var i = num; i >= 1; i--) { // 5! = 5 * 4 * 3 * 2 * 1 = descending
   for (var i = 1; i <= num; i++) { // 5! = 1 * 2 * 3 * 4 * 5 = ascending
-    factorial *= i;
+    start *= i;
   }
-  return factorial;
+  return start;
 }
 
 console.log(factorial(5));
