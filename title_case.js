@@ -10,7 +10,7 @@ function titleCase(str) {
     var letters = words[i].split("");
     // loop through each word
     for (var j = 0; j < letters.length; j++) {
-      // capitalize first letter of each word
+      // set it! capitalize first letter of each word
       letters[0] = letters[0].toUpperCase();
     }
     // join letters for each word
