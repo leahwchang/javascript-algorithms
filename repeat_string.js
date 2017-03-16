@@ -4,6 +4,9 @@
 function repeatString(string, number) {
   // loop thr str by num of times
   var repeated = "";
+  if ( number < 0 ) {
+    return repeated;
+  }
   var i = 0;
   while ( i < number ) {
     repeated +=  string;
@@ -12,4 +15,5 @@ function repeatString(string, number) {
   return repeated;
 }
 
-console.log(repeatString("bacon", 5));
+console.log(repeatString("bacon", -5));
+console.log(repeatString("eggs", 5));
